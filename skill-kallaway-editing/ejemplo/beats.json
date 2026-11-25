@@ -1,0 +1,1709 @@
+{
+ "title": "Prueba · 3 fotos por prenda (estilo Kallaway)",
+ "beats": [
+  {
+   "id": "b01",
+   "start": 0.0,
+   "end": 3.98,
+   "script": "Toda prenda que vende necesita tres fotos y casi todos suben una sola.",
+   "seen": "Gancho: franja + prueba rara arriba desde el primer fotograma.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · k_hook → media → slots",
+     "desc": "Arriba cambia en cada cosa que nombra (k_hook, media, slots); ella abajo con subtítulo en la costura.",
+     "ref": "V01-A01",
+     "scenes": [
+      {
+       "id": "hook",
+       "type": "k_hook",
+       "start": 0.0,
+       "end": 3.9,
+       "props": {
+        "line1": "TODA PRENDA NECESITA",
+        "line2": "3 FOTOS",
+        "variant": "red"
+       }
+      },
+      {
+       "id": "s01",
+       "type": "k_split",
+       "start": 0.0,
+       "end": 1.46,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A01 · prenda estrella\n(la que se vende)"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s02",
+       "type": "k_split",
+       "start": 1.46,
+       "end": 2.66,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "t": 1.46,
+           "label": "de frente"
+          },
+          {
+           "t": 1.62,
+           "label": "puesta"
+          },
+          {
+           "t": 1.84,
+           "label": "de cerca"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s03",
+       "type": "k_split",
+       "start": 2.66,
+       "end": 3.98,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "label": "la única"
+          },
+          {
+           "empty": true
+          },
+          {
+           "empty": true
+          }
+         ],
+         "caption": "casi todos suben una sola"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Franja negra con cifra amarilla",
+     "cats": "Gancho · franja negra",
+     "desc": "Mismo gancho con la franja negra: «CASI TODOS SUBEN» / «1 FOTO».",
+     "ref": "V03-A01",
+     "scenes": [
+      {
+       "id": "s01",
+       "type": "k_split",
+       "start": 0.0,
+       "end": 1.46,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A01 · prenda estrella\n(la que se vende)"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s02",
+       "type": "k_split",
+       "start": 1.46,
+       "end": 2.66,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "t": 1.46,
+           "label": "de frente"
+          },
+          {
+           "t": 1.62,
+           "label": "puesta"
+          },
+          {
+           "t": 1.84,
+           "label": "de cerca"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s03",
+       "type": "k_split",
+       "start": 2.66,
+       "end": 3.98,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "label": "la única"
+          },
+          {
+           "empty": true
+          },
+          {
+           "empty": true
+          }
+         ],
+         "caption": "casi todos suben una sola"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "hook",
+       "type": "k_hook",
+       "start": 0.0,
+       "end": 3.9,
+       "props": {
+        "line1": "CASI TODOS SUBEN",
+        "line2": "1 SOLA FOTO",
+        "variant": "black"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Franja blanca con título dorado",
+     "cats": "Gancho · franja blanca",
+     "desc": "Franja clara, texto negro y segunda línea dorada: «LA FOTO QUE» / «CASI NADIE TOMA».",
+     "ref": "V06-A01",
+     "scenes": [
+      {
+       "id": "s01",
+       "type": "k_split",
+       "start": 0.0,
+       "end": 1.46,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A01 · prenda estrella\n(la que se vende)"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s02",
+       "type": "k_split",
+       "start": 1.46,
+       "end": 2.66,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "t": 1.46,
+           "label": "de frente"
+          },
+          {
+           "t": 1.62,
+           "label": "puesta"
+          },
+          {
+           "t": 1.84,
+           "label": "de cerca"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s03",
+       "type": "k_split",
+       "start": 2.66,
+       "end": 3.98,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "label": "la única"
+          },
+          {
+           "empty": true
+          },
+          {
+           "empty": true
+          }
+         ],
+         "caption": "casi todos suben una sola"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "hook",
+       "type": "k_hook",
+       "start": 0.0,
+       "end": 3.9,
+       "props": {
+        "line1": "LA FOTO QUE",
+        "line2": "CASI NADIE TOMA",
+        "variant": "white"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "start": 3.98,
+   "end": 6.42,
+   "script": "La prenda colgada en un gancho con la luz del local.",
+   "seen": "Nombra algo concreto → se ve arriba en la misma palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · media",
+     "desc": "Arriba cambia en cada cosa que nombra (media); ella abajo con subtítulo en la costura.",
+     "ref": "V12-A16",
+     "scenes": [
+      {
+       "id": "s04",
+       "type": "k_split",
+       "start": 3.98,
+       "end": 6.42,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A02 · prenda en gancho\ncon luz del local",
+         "labels": [
+          {
+           "text": "la única foto",
+           "x": 0.5,
+           "y": 0.86,
+           "t": 4.28,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V01-A17",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 3.98,
+       "end": 6.42,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A02 · prenda en gancho\ncon luz del local",
+         "labels": [
+          {
+           "text": "la única foto",
+           "x": 0.5,
+           "y": 0.86,
+           "t": 4.28,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V02-A23",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 3.98,
+       "end": 6.42,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "start": 6.42,
+   "end": 7.38,
+   "script": "Te digo cuáles son.",
+   "seen": "Promesa corta: cara a pantalla completa + palabra gigante.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V04-A02",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 6.42,
+       "end": 7.38,
+       "props": {}
+      }
+     ]
+    },
+    {
+     "title": "A-roll limpio",
+     "cats": "Cara · sin palabra",
+     "desc": "Ella a pantalla completa con subtítulo pequeño; respiro antes de la lista.",
+     "ref": "V06-A39",
+     "type": null
+    },
+    {
+     "title": "Pantalla dividida con lista 1-2-3",
+     "cats": "Split · lista",
+     "desc": "Arriba, la lista de las tres fotos apareciendo; ella abajo.",
+     "ref": "V01-A27",
+     "scenes": [
+      {
+       "type": "k_split",
+       "start": 6.42,
+       "end": 7.38,
+       "props": {
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        },
+        "top": {
+         "kind": "list",
+         "title": "Las 3 fotos",
+         "items": [
+          {
+           "text": "De frente",
+           "t": 6.42
+          },
+          {
+           "text": "Puesta",
+           "t": 6.72
+          },
+          {
+           "text": "De cerca",
+           "t": 7.02
+          }
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "start": 7.38,
+   "end": 10.94,
+   "script": "La tercera es la que casi nadie toma y es la que más preguntas te ahorra.",
+   "seen": "Adelanto: resalta un elemento y enseña la consecuencia.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · slots → chat",
+     "desc": "Arriba cambia en cada cosa que nombra (slots, chat); ella abajo con subtítulo en la costura.",
+     "ref": "V02-A20",
+     "scenes": [
+      {
+       "id": "s05",
+       "type": "k_split",
+       "start": 7.38,
+       "end": 9.18,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "label": "de frente"
+          },
+          {
+           "label": "puesta"
+          },
+          {
+           "label": "casi nadie",
+           "hot": 7.4,
+           "icon": "3"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s06",
+       "type": "k_split",
+       "start": 9.18,
+       "end": 10.94,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "badge": true,
+         "messages": [
+          {
+           "text": "¿Tienes más fotos?",
+           "t": 9.38
+          },
+          {
+           "text": "¿Cómo es la tela?",
+           "t": 9.7
+          },
+          {
+           "text": "¿Es de buena calidad?",
+           "t": 10.02
+          },
+          {
+           "text": "¿De qué largo es?",
+           "t": 10.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V02-A15",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 7.38,
+       "end": 9.18,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "slots": [
+          {
+           "label": "de frente"
+          },
+          {
+           "label": "puesta"
+          },
+          {
+           "label": "casi nadie",
+           "hot": 7.4,
+           "icon": "3"
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 9.18,
+       "end": 10.94,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "badge": true,
+         "messages": [
+          {
+           "text": "¿Tienes más fotos?",
+           "t": 9.38
+          },
+          {
+           "text": "¿Cómo es la tela?",
+           "t": 9.7
+          },
+          {
+           "text": "¿Es de buena calidad?",
+           "t": 10.02
+          },
+          {
+           "text": "¿De qué largo es?",
+           "t": 10.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V06-A39",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 7.38,
+       "end": 10.94,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "start": 10.94,
+   "end": 17.4,
+   "script": "La primera, la prenda completa de frente con luz de día… Esa responde cómo es.",
+   "seen": "Lista: número grande y luego una toma por cada cosa nombrada.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · number → media → chat",
+     "desc": "Arriba cambia en cada cosa que nombra (number, media, chat); ella abajo con subtítulo en la costura.",
+     "ref": "V02-A25",
+     "scenes": [
+      {
+       "id": "s07",
+       "type": "k_split",
+       "start": 10.94,
+       "end": 11.58,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "1",
+         "label": "de frente",
+         "t": 10.94
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s08",
+       "type": "k_split",
+       "start": 11.58,
+       "end": 16.12,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A03 · prenda completa de frente\ncon luz de día",
+         "labels": [
+          {
+           "text": "luz de día",
+           "x": 0.5,
+           "y": 0.14,
+           "t": 13.06
+          },
+          {
+           "text": "color real",
+           "x": 0.28,
+           "y": 0.5,
+           "t": 14.56
+          },
+          {
+           "text": "largo",
+           "x": 0.76,
+           "y": 0.82,
+           "t": 15.58
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s09",
+       "type": "k_split",
+       "start": 16.12,
+       "end": 17.4,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo es?",
+           "t": 16.3
+          },
+          {
+           "text": "📸 Foto 1",
+           "me": true,
+           "t": 16.96
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V02-A24",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 10.94,
+       "end": 11.58,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "1",
+         "label": "de frente",
+         "t": 10.94
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 11.58,
+       "end": 16.12,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A03 · prenda completa de frente\ncon luz de día",
+         "labels": [
+          {
+           "text": "luz de día",
+           "x": 0.5,
+           "y": 0.14,
+           "t": 13.06
+          },
+          {
+           "text": "color real",
+           "x": 0.28,
+           "y": 0.5,
+           "t": 14.56
+          },
+          {
+           "text": "largo",
+           "x": 0.76,
+           "y": 0.82,
+           "t": 15.58
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 16.12,
+       "end": 17.4,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo es?",
+           "t": 16.3
+          },
+          {
+           "text": "📸 Foto 1",
+           "me": true,
+           "t": 16.96
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V08-A19",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 10.94,
+       "end": 17.4,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "start": 17.4,
+   "end": 24.28,
+   "script": "La segunda, la prenda puesta en una persona… esa responde cómo me queda.",
+   "seen": "Lista + remate de opinión con la cara completa.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · number → media → k_word → chat",
+     "desc": "Arriba cambia en cada cosa que nombra (number, media, k_word, chat); ella abajo con subtítulo en la costura.",
+     "ref": "V05-A07",
+     "scenes": [
+      {
+       "id": "s10",
+       "type": "k_split",
+       "start": 17.4,
+       "end": 18.22,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "2",
+         "label": "puesta en una persona",
+         "t": 17.4
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s11",
+       "type": "k_split",
+       "start": 18.22,
+       "end": 19.68,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A04 · la prenda puesta\nen una persona"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "w2",
+       "type": "k_word",
+       "start": 19.68,
+       "end": 21.78,
+       "props": {}
+      },
+      {
+       "id": "p1",
+       "type": "k_pip",
+       "start": 21.78,
+       "end": 23.02,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A05 · clienta viéndose\ncon la prenda (vertical)"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s12",
+       "type": "k_split",
+       "start": 23.02,
+       "end": 24.28,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo me queda?",
+           "t": 23.08
+          },
+          {
+           "text": "📸 Foto 2",
+           "me": true,
+           "t": 23.88
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V05-A09",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 17.4,
+       "end": 18.22,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "2",
+         "label": "puesta en una persona",
+         "t": 17.4
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 18.22,
+       "end": 19.68,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A04 · la prenda puesta\nen una persona"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 21.78,
+       "end": 23.02,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A05 · clienta viéndose\ncon la prenda (vertical)"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 23.02,
+       "end": 24.28,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente",
+         "messages": [
+          {
+           "text": "¿Cómo me queda?",
+           "t": 23.08
+          },
+          {
+           "text": "📸 Foto 2",
+           "me": true,
+           "t": 23.88
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V10-A05",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 17.4,
+       "end": 24.28,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "start": 24.28,
+   "end": 30.22,
+   "script": "Y la tercera de cerquita, la costura, el botón, la tela… lo que todos piensan y nadie escribe.",
+   "seen": "Enumeración rápida: un plano por palabra (0.4–0.8 s).",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · number → media",
+     "desc": "Arriba cambia en cada cosa que nombra (number, media); ella abajo con subtítulo en la costura.",
+     "ref": "V05-A08",
+     "scenes": [
+      {
+       "id": "s13",
+       "type": "k_split",
+       "start": 24.28,
+       "end": 25.56,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "3",
+         "label": "de cerquita",
+         "t": 24.28
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s14",
+       "type": "k_split",
+       "start": 25.56,
+       "end": 27.44,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A06 costura · A07 botón · A08 tela",
+         "cuts": [
+          26.24,
+          26.72
+         ],
+         "labels": [
+          {
+           "text": "costura",
+           "x": 0.5,
+           "y": 0.85,
+           "t": 25.64,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "p2",
+       "type": "k_pip",
+       "start": 27.44,
+       "end": 30.22,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A08 · tela muy de cerca\n(vertical)",
+         "labels": [
+          {
+           "text": "lo que todos piensan",
+           "x": 0.5,
+           "y": 0.36,
+           "t": 28.08
+          },
+          {
+           "text": "y nadie escribe",
+           "x": 0.5,
+           "y": 0.42,
+           "t": 29.06
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V05-A10",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 24.28,
+       "end": 25.56,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "3",
+         "label": "de cerquita",
+         "t": 24.28
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 25.56,
+       "end": 27.44,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A06 costura · A07 botón · A08 tela",
+         "cuts": [
+          26.24,
+          26.72
+         ],
+         "labels": [
+          {
+           "text": "costura",
+           "x": 0.5,
+           "y": 0.85,
+           "t": 25.64,
+           "box": true
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 27.44,
+       "end": 30.22,
+       "props": {
+        "top": {
+         "kind": "media",
+         "media": [],
+         "placeholder": "A08 · tela muy de cerca\n(vertical)",
+         "labels": [
+          {
+           "text": "lo que todos piensan",
+           "x": 0.5,
+           "y": 0.36,
+           "t": 28.08
+          },
+          {
+           "text": "y nadie escribe",
+           "x": 0.5,
+           "y": 0.42,
+           "t": 29.06
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V11-A18",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 24.28,
+       "end": 30.22,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "start": 30.22,
+   "end": 33.12,
+   "script": "Esto si es buena calidad o se me daña en la primera lavada.",
+   "seen": "La voz del cliente → captura de chat.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · chat",
+     "desc": "Arriba cambia en cada cosa que nombra (chat); ella abajo con subtítulo en la costura.",
+     "ref": "V10-A19",
+     "scenes": [
+      {
+       "id": "s15",
+       "type": "k_split",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente · escribiendo…",
+         "messages": [
+          {
+           "text": "¿Sí es buena calidad?",
+           "t": 30.46
+          },
+          {
+           "text": "¿O se daña en la primera lavada?",
+           "t": 31.24
+          },
+          {
+           "text": "🔍 Foto 3",
+           "me": true,
+           "t": 32.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V07-A03",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Cliente · escribiendo…",
+         "messages": [
+          {
+           "text": "¿Sí es buena calidad?",
+           "t": 30.46
+          },
+          {
+           "text": "¿O se daña en la primera lavada?",
+           "t": 31.24
+          },
+          {
+           "text": "🔍 Foto 3",
+           "me": true,
+           "t": 32.34
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V13-A05",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "start": 33.12,
+   "end": 37.72,
+   "script": "Con una foto el cliente te escribe diez veces. Con tres te escribe una sola vez para pedir.",
+   "seen": "Comparación con cifras enfrentadas.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · chat → number",
+     "desc": "Arriba cambia en cada cosa que nombra (chat, number); ella abajo con subtítulo en la costura.",
+     "ref": "V17-A17",
+     "scenes": [
+      {
+       "id": "s16",
+       "type": "k_split",
+       "start": 33.12,
+       "end": 35.34,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Con 1 foto",
+         "badge": true,
+         "messages": [
+          {
+           "text": "¿Tienes otra foto?",
+           "t": 33.24
+          },
+          {
+           "text": "¿Cómo queda puesta?",
+           "t": 33.72
+          },
+          {
+           "text": "¿Y la tela?",
+           "t": 34.0
+          },
+          {
+           "text": "¿Es gruesa?",
+           "t": 34.22
+          },
+          {
+           "text": "¿Me mandas otra?",
+           "t": 34.4
+          },
+          {
+           "text": "¿De qué largo?",
+           "t": 34.58
+          },
+          {
+           "text": "¿Destiñe?",
+           "t": 34.7
+          },
+          {
+           "text": "¿Y por detrás?",
+           "t": 34.82
+          },
+          {
+           "text": "¿Sigue disponible?",
+           "t": 34.96
+          },
+          {
+           "text": "Lo pienso…",
+           "t": 35.1
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s17",
+       "type": "k_split",
+       "start": 35.34,
+       "end": 37.72,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "10",
+         "label": "mensajes con 1 foto",
+         "t": 35.34,
+         "vs": {
+          "value": "1",
+          "label": "con 3 fotos: para pedir",
+          "t": 36.24
+         }
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V07-A04",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 33.12,
+       "end": 35.34,
+       "props": {
+        "top": {
+         "kind": "chat",
+         "title": "Con 1 foto",
+         "badge": true,
+         "messages": [
+          {
+           "text": "¿Tienes otra foto?",
+           "t": 33.24
+          },
+          {
+           "text": "¿Cómo queda puesta?",
+           "t": 33.72
+          },
+          {
+           "text": "¿Y la tela?",
+           "t": 34.0
+          },
+          {
+           "text": "¿Es gruesa?",
+           "t": 34.22
+          },
+          {
+           "text": "¿Me mandas otra?",
+           "t": 34.4
+          },
+          {
+           "text": "¿De qué largo?",
+           "t": 34.58
+          },
+          {
+           "text": "¿Destiñe?",
+           "t": 34.7
+          },
+          {
+           "text": "¿Y por detrás?",
+           "t": 34.82
+          },
+          {
+           "text": "¿Sigue disponible?",
+           "t": 34.96
+          },
+          {
+           "text": "Lo pienso…",
+           "t": 35.1
+          }
+         ]
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 35.34,
+       "end": 37.72,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "10",
+         "label": "mensajes con 1 foto",
+         "t": 35.34,
+         "vs": {
+          "value": "1",
+          "label": "con 3 fotos: para pedir",
+          "t": 36.24
+         }
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V13-A19",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 33.12,
+       "end": 37.72,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "start": 37.72,
+   "end": 44.3,
+   "script": "Comenta la palabra en pantalla y te armo gratis un anuncio…",
+   "seen": "Cierre: cara directa y la palabra para comentar bien grande.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Pantalla dividida con la prueba",
+     "cats": "Split · k_word → number → slots",
+     "desc": "Arriba cambia en cada cosa que nombra (k_word, number, slots); ella abajo con subtítulo en la costura.",
+     "ref": "V07-A21",
+     "scenes": [
+      {
+       "id": "w3",
+       "type": "k_word",
+       "start": 37.72,
+       "end": 39.46,
+       "props": {}
+      },
+      {
+       "id": "s18",
+       "type": "k_split",
+       "start": 39.46,
+       "end": 41.0,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "FOTOS",
+         "label": "comenta esta palabra",
+         "t": 39.46
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "id": "s19",
+       "type": "k_split",
+       "start": 41.0,
+       "end": 44.3,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "title": "Tu anuncio gratis",
+         "slots": [
+          {
+           "t": 43.02,
+           "label": "de frente",
+           "hot": 43.42
+          },
+          {
+           "t": 43.22,
+           "label": "puesta",
+           "hot": 43.42
+          },
+          {
+           "t": 43.42,
+           "label": "de cerca",
+           "hot": 43.42
+          }
+         ],
+         "caption": "comenta FOTOS"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Material a pantalla completa + cara en círculo",
+     "cats": "PiP · pantalla completa",
+     "desc": "La prueba ocupa todo; ella queda en un círculo arriba a la izquierda y el subtítulo va en pastilla oscura.",
+     "ref": "V07-A25",
+     "scenes": [
+      {
+       "type": "k_pip",
+       "start": 39.46,
+       "end": 41.0,
+       "props": {
+        "top": {
+         "kind": "number",
+         "value": "FOTOS",
+         "label": "comenta esta palabra",
+         "t": 39.46
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      },
+      {
+       "type": "k_pip",
+       "start": 41.0,
+       "end": 44.3,
+       "props": {
+        "top": {
+         "kind": "slots",
+         "title": "Tu anuncio gratis",
+         "slots": [
+          {
+           "t": 43.02,
+           "label": "de frente",
+           "hot": 43.42
+          },
+          {
+           "t": 43.22,
+           "label": "puesta",
+           "hot": 43.42
+          },
+          {
+           "t": 43.42,
+           "label": "de cerca",
+           "hot": 43.42
+          }
+         ],
+         "caption": "comenta FOTOS"
+        },
+        "face": {
+         "x": 0.496,
+         "y": 0.349,
+         "w": 0.681
+        }
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cara completa + palabra gigante",
+     "cats": "Cara · palabra",
+     "desc": "Sin material: punch-in a su cara y el subtítulo pasa a una palabra enorme que cambia con la voz.",
+     "ref": "V13-A30",
+     "scenes": [
+      {
+       "type": "k_word",
+       "start": 37.72,
+       "end": 44.3,
+       "props": {}
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,631 @@
+{
+ "style": "kallaway",
+ "scenes": [
+  {
+   "id": "b01a0",
+   "type": "k_hook",
+   "start": 0.0,
+   "end": 3.9,
+   "props": {
+    "line1": "TODA PRENDA NECESITA",
+    "line2": "3 FOTOS",
+    "variant": "red"
+   }
+  },
+  {
+   "id": "b01a1",
+   "type": "k_split",
+   "start": 0.0,
+   "end": 1.46,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A01 · prenda estrella\n(la que se vende)"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b01a2",
+   "type": "k_split",
+   "start": 1.46,
+   "end": 2.66,
+   "props": {
+    "top": {
+     "kind": "slots",
+     "slots": [
+      {
+       "t": 1.46,
+       "label": "de frente"
+      },
+      {
+       "t": 1.62,
+       "label": "puesta"
+      },
+      {
+       "t": 1.84,
+       "label": "de cerca"
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b01a3",
+   "type": "k_split",
+   "start": 2.66,
+   "end": 3.98,
+   "props": {
+    "top": {
+     "kind": "slots",
+     "slots": [
+      {
+       "label": "la única"
+      },
+      {
+       "empty": true
+      },
+      {
+       "empty": true
+      }
+     ],
+     "caption": "casi todos suben una sola"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b02a0",
+   "type": "k_split",
+   "start": 3.98,
+   "end": 6.42,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A02 · prenda en gancho\ncon luz del local",
+     "labels": [
+      {
+       "text": "la única foto",
+       "x": 0.5,
+       "y": 0.86,
+       "t": 4.28,
+       "box": true
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "type": "k_word",
+   "start": 6.42,
+   "end": 7.38,
+   "props": {},
+   "id": "b03a0"
+  },
+  {
+   "id": "b04a0",
+   "type": "k_split",
+   "start": 7.38,
+   "end": 9.18,
+   "props": {
+    "top": {
+     "kind": "slots",
+     "slots": [
+      {
+       "label": "de frente"
+      },
+      {
+       "label": "puesta"
+      },
+      {
+       "label": "casi nadie",
+       "hot": 7.4,
+       "icon": "3"
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b04a1",
+   "type": "k_split",
+   "start": 9.18,
+   "end": 10.94,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "badge": true,
+     "messages": [
+      {
+       "text": "¿Tienes más fotos?",
+       "t": 9.38
+      },
+      {
+       "text": "¿Cómo es la tela?",
+       "t": 9.7
+      },
+      {
+       "text": "¿Es de buena calidad?",
+       "t": 10.02
+      },
+      {
+       "text": "¿De qué largo es?",
+       "t": 10.34
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b05a0",
+   "type": "k_split",
+   "start": 10.94,
+   "end": 11.58,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "1",
+     "label": "de frente",
+     "t": 10.94
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b05a1",
+   "type": "k_split",
+   "start": 11.58,
+   "end": 16.12,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A03 · prenda completa de frente\ncon luz de día",
+     "labels": [
+      {
+       "text": "luz de día",
+       "x": 0.5,
+       "y": 0.14,
+       "t": 13.06
+      },
+      {
+       "text": "color real",
+       "x": 0.28,
+       "y": 0.5,
+       "t": 14.56
+      },
+      {
+       "text": "largo",
+       "x": 0.76,
+       "y": 0.82,
+       "t": 15.58
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b05a2",
+   "type": "k_split",
+   "start": 16.12,
+   "end": 17.4,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "messages": [
+      {
+       "text": "¿Cómo es?",
+       "t": 16.3
+      },
+      {
+       "text": "📸 Foto 1",
+       "me": true,
+       "t": 16.96
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b06a0",
+   "type": "k_split",
+   "start": 17.4,
+   "end": 18.22,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "2",
+     "label": "puesta en una persona",
+     "t": 17.4
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b06a1",
+   "type": "k_split",
+   "start": 18.22,
+   "end": 19.68,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A04 · la prenda puesta\nen una persona"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b06a2",
+   "type": "k_word",
+   "start": 19.68,
+   "end": 21.78,
+   "props": {}
+  },
+  {
+   "id": "b06a3",
+   "type": "k_pip",
+   "start": 21.78,
+   "end": 23.02,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A05 · clienta viéndose\ncon la prenda (vertical)"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b06a4",
+   "type": "k_split",
+   "start": 23.02,
+   "end": 24.28,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente",
+     "messages": [
+      {
+       "text": "¿Cómo me queda?",
+       "t": 23.08
+      },
+      {
+       "text": "📸 Foto 2",
+       "me": true,
+       "t": 23.88
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b07a0",
+   "type": "k_split",
+   "start": 24.28,
+   "end": 25.56,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "3",
+     "label": "de cerquita",
+     "t": 24.28
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b07a1",
+   "type": "k_split",
+   "start": 25.56,
+   "end": 27.44,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A06 costura · A07 botón · A08 tela",
+     "cuts": [
+      26.24,
+      26.72
+     ],
+     "labels": [
+      {
+       "text": "costura",
+       "x": 0.5,
+       "y": 0.85,
+       "t": 25.64,
+       "box": true
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b07a2",
+   "type": "k_pip",
+   "start": 27.44,
+   "end": 30.22,
+   "props": {
+    "top": {
+     "kind": "media",
+     "media": [],
+     "placeholder": "A08 · tela muy de cerca\n(vertical)",
+     "labels": [
+      {
+       "text": "lo que todos piensan",
+       "x": 0.5,
+       "y": 0.36,
+       "t": 28.08
+      },
+      {
+       "text": "y nadie escribe",
+       "x": 0.5,
+       "y": 0.42,
+       "t": 29.06
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b08a0",
+   "type": "k_split",
+   "start": 30.22,
+   "end": 33.12,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Cliente · escribiendo…",
+     "messages": [
+      {
+       "text": "¿Sí es buena calidad?",
+       "t": 30.46
+      },
+      {
+       "text": "¿O se daña en la primera lavada?",
+       "t": 31.24
+      },
+      {
+       "text": "🔍 Foto 3",
+       "me": true,
+       "t": 32.34
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b09a0",
+   "type": "k_split",
+   "start": 33.12,
+   "end": 35.34,
+   "props": {
+    "top": {
+     "kind": "chat",
+     "title": "Con 1 foto",
+     "badge": true,
+     "messages": [
+      {
+       "text": "¿Tienes otra foto?",
+       "t": 33.24
+      },
+      {
+       "text": "¿Cómo queda puesta?",
+       "t": 33.72
+      },
+      {
+       "text": "¿Y la tela?",
+       "t": 34.0
+      },
+      {
+       "text": "¿Es gruesa?",
+       "t": 34.22
+      },
+      {
+       "text": "¿Me mandas otra?",
+       "t": 34.4
+      },
+      {
+       "text": "¿De qué largo?",
+       "t": 34.58
+      },
+      {
+       "text": "¿Destiñe?",
+       "t": 34.7
+      },
+      {
+       "text": "¿Y por detrás?",
+       "t": 34.82
+      },
+      {
+       "text": "¿Sigue disponible?",
+       "t": 34.96
+      },
+      {
+       "text": "Lo pienso…",
+       "t": 35.1
+      }
+     ]
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b09a1",
+   "type": "k_split",
+   "start": 35.34,
+   "end": 37.72,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "10",
+     "label": "mensajes con 1 foto",
+     "t": 35.34,
+     "vs": {
+      "value": "1",
+      "label": "con 3 fotos: para pedir",
+      "t": 36.24
+     }
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b10a0",
+   "type": "k_word",
+   "start": 37.72,
+   "end": 39.46,
+   "props": {}
+  },
+  {
+   "id": "b10a1",
+   "type": "k_split",
+   "start": 39.46,
+   "end": 41.0,
+   "props": {
+    "top": {
+     "kind": "number",
+     "value": "FOTOS",
+     "label": "comenta esta palabra",
+     "t": 39.46
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  },
+  {
+   "id": "b10a2",
+   "type": "k_split",
+   "start": 41.0,
+   "end": 44.3,
+   "props": {
+    "top": {
+     "kind": "slots",
+     "title": "Tu anuncio gratis",
+     "slots": [
+      {
+       "t": 43.02,
+       "label": "de frente",
+       "hot": 43.42
+      },
+      {
+       "t": 43.22,
+       "label": "puesta",
+       "hot": 43.42
+      },
+      {
+       "t": 43.42,
+       "label": "de cerca",
+       "hot": 43.42
+      }
+     ],
+     "caption": "comenta FOTOS"
+    },
+    "face": {
+     "x": 0.496,
+     "y": 0.349,
+     "w": 0.681
+    }
+   }
+  }
+ ],
+ "cuts": [],
+ "captions": {
+  "enabled": true
+ },
+ "assets": [],
+ "notes": {}
+}
